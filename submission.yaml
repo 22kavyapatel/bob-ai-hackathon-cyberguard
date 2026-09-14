@@ -12,15 +12,15 @@ team:
   name: "CyberGuard"                     # REQUIRED — e.g., "Orion Squad"
   track: "AI"                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
   lead:
-    name: "CyberGuard Team Lead"         # REQUIRED — e.g., "Alice Chen"
-    email: "cyberguard@ibm.com"          # REQUIRED — e.g., "alice.chen@ibm.com"
+    name: "Kavya Darshanbhai Patel"         # REQUIRED — e.g., "Alice Chen"
+    email: "d26it112@charusat.edu.in"          # REQUIRED — e.g., "alice.chen@ibm.com"
   members:
-    - name: "CyberGuard Member 1"        # REQUIRED — Team member 1
-      email: "member1@ibm.com"
-    - name: "CyberGuard Member 2"
-      email: "member2@ibm.com"
-    - name: "CyberGuard Member 3"
-      email: "member3@ibm.com"
+    - name: "Diya Tejalkumar Khalasi"        # REQUIRED — Team member 1
+      email: "d26it131@charusat.edu.in"
+    - name: "Kumud pravin Patil"
+      email: "d26it132@charusat.edu.in"
+    - name: "Maitry Rana"
+      email: "d26dce139@charusat.edu.in"
 
 submission:
   title: "ThreatSense AI"               # REQUIRED — Project display name
@@ -75,7 +75,7 @@ artifacts:
   source_code: "src/"
   setup_guide: "docs/setup-guide.md"
   architecture_doc: "docs/architecture.md"
-  demo_video: "demo/demo-video-link.txt"   # URL to hosted video (YouTube, Loom, Box)
+  demo_video: "demo-video.mp4"   # URL to hosted video (YouTube, Loom, Box)
   live_demo: "demo/live-demo-url.txt"      # URL to deployed demo (optional)
   screenshots: "demo/screenshots/"
   presentation: "presentation/"
