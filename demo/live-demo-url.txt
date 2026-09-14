@@ -1,0 +1,16 @@
+NOT DEPLOYED
+
+The application runs locally. See docs/setup-guide.md for instructions.
+
+To run locally:
+ Backend :---
+& "C:\Users\Admin\AppData\Local\Programs\Python\Python313\python.exe" -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+cd D:\bob-ai-hackathon-cyberguard\src\backend
+ 
+ Frontend :----
+ cd D:\bob-ai-hackathon-cyberguard\src\frontend
+ npm run dev -- --host 127.0.0.1
+
+
+link for demo video: 
+https://youtu.be/tWlxueQojGE
