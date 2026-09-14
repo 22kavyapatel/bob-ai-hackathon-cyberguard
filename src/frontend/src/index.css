@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-cyber-bg text-cyber-text;
+    background-image:
+      radial-gradient(ellipse at 20% 0%, rgba(0, 119, 182, 0.06) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 100%, rgba(0, 180, 216, 0.04) 0%, transparent 50%);
+    min-height: 100vh;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-cyber-bg;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-cyber-border rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-cyber-muted;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-cyber-surface border border-cyber-border rounded-lg;
+  }
+
+  .severity-badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold font-mono;
+  }
+
+  .severity-HIGH {
+    @apply bg-red-950 text-cyber-high border border-red-800;
+  }
+
+  .severity-MEDIUM {
+    @apply bg-amber-950 text-cyber-medium border border-amber-800;
+  }
+
+  .severity-LOW {
+    @apply bg-green-950 text-cyber-low border border-green-800;
+  }
+
+  .status-badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .status-open {
+    @apply bg-red-950 text-red-300 border border-red-900;
+  }
+
+  .status-in_review {
+    @apply bg-amber-950 text-amber-300 border border-amber-900;
+  }
+
+  .status-closed {
+    @apply bg-slate-800 text-slate-400 border border-slate-700;
+  }
+
+  .risk-score-critical {
+    @apply text-cyber-high;
+  }
+
+  .risk-score-high {
+    @apply text-orange-400;
+  }
+
+  .risk-score-medium {
+    @apply text-cyber-medium;
+  }
+
+  .risk-score-low {
+    @apply text-cyber-low;
+  }
+
+  .btn-primary {
+    @apply px-3 py-1.5 bg-cyber-accent2 hover:bg-cyber-accent text-white text-sm font-medium rounded
+           transition-colors duration-150 disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+
+  .btn-ghost {
+    @apply px-3 py-1.5 bg-transparent hover:bg-cyber-border text-cyber-muted hover:text-cyber-text
+           text-sm font-medium rounded border border-cyber-border transition-colors duration-150;
+  }
+
+  .filter-select {
+    @apply bg-cyber-surface border border-cyber-border text-cyber-text text-sm rounded px-3 py-1.5
+           focus:outline-none focus:border-cyber-accent transition-colors duration-150;
+  }
+
+  .input-search {
+    @apply bg-cyber-surface border border-cyber-border text-cyber-text placeholder-cyber-muted
+           text-sm rounded px-3 py-1.5 focus:outline-none focus:border-cyber-accent
+           transition-colors duration-150 w-full;
+  }
+}

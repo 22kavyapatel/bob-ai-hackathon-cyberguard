@@ -1,15 +1,14 @@
-https://youtu.be/your-demo-video-link-here
+Demo video recording — to be added after the live demo.
 
-Replace the URL above with a link to your demo video.
+Replace this line with the actual video URL (YouTube, Loom, or Box link).
+Format: https://www.youtube.com/watch?v=XXXXXXXXX
 
-Accepted platforms:
-  - YouTube (public or unlisted)
-  - Loom (https://www.loom.com/share/...)
-  - IBM Box (https://ibm.box.com/s/...)
-  - Google Drive (set to "Anyone with the link can view")
-
-Video requirements:
-  - Length: 3–5 minutes maximum
-  - Must show the application running (not just slides)
-  - Should walk through at least one key feature end-to-end
-  - Audio narration strongly recommended
+The demo should be 3-5 minutes and show:
+1. Dashboard load with 50 alerts
+2. Filtering by severity and source
+3. Clicking a HIGH severity alert to open the detail panel
+4. Risk score, classification and MITRE ATT&CK techniques
+5. BLUF threat summary (watsonx.ai or fallback)
+6. Recommended actions
+7. Correlated alerts cluster
+8. Status update (Open → In Review → Closed)
