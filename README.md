@@ -1,34 +1,34 @@
-# 🛡️ ThreatSense AI
+ 🛡️ ThreatSense AI
 
 > **AI-Powered Threat Intelligence Correlation & Alert Prioritisation Assistant**
 > IBM Bob AI Innovation Hackathon 2026 — Problem D2 — Track: AI
 
 ---
 
-## 👥 Team
+ Team
 
 | Field | Value |
 |---|---|
 | **Team Name** | CyberGuard |
 | **Track** | AI |
-| **Team Lead** | CyberGuard Team Lead — cyberguard@ibm.com |
-| **Members** | CyberGuard Member 1, CyberGuard Member 2, CyberGuard Member 3 |
+| **Team Lead** | CyberGuard Team Lead — d26it112@charusat.edu.in|
+| **Members** | khalasi Diya, Kumud Patil, Maitry Rana |
 
 ---
 
-## 🎯 Problem Statement
+ Problem Statement
 
 Security Operations Centre (SOC) analysts are overwhelmed by hundreds of raw cybersecurity alerts per shift. Without intelligent triage, critical threats are buried in noise, leading to slow response times, analyst fatigue, and missed incidents that can result in costly data breaches.
 
 ---
 
-## 💡 Solution
+ Solution
 
 ThreatSense AI is an AI-powered threat intelligence correlation and alert prioritisation assistant. It ingests raw security alerts, correlates related events into attack clusters, calculates a risk score, maps detected techniques to MITRE ATT&CK, and generates a BLUF (Bottom Line Up Front) threat summary with recommended analyst actions — powered by IBM watsonx.ai and built with IBM Bob.
 
 ---
 
-## ✨ Key Features
+Key Features
 
 - **🔗 AI-Driven Alert Correlation:** Groups related alerts by source IP, attack pattern, and time window to surface campaign-level threats rather than isolated noise.
 - **📊 Risk Scoring Engine:** Calculates a 0–100 threat score per alert cluster using severity, frequency, asset criticality, and MITRE ATT&CK technique coverage.
@@ -38,7 +38,7 @@ ThreatSense AI is an AI-powered threat intelligence correlation and alert priori
 
 ---
 
-## 🛠️ Tech Stack
+ Tech Stack
 
 | Category | Technologies |
 |---|---|
@@ -49,7 +49,7 @@ ThreatSense AI is an AI-powered threat intelligence correlation and alert priori
 
 ---
 
-## 📁 Repository Structure
+ Repository Structure
 
 ```
 ├── src/
@@ -83,7 +83,7 @@ ThreatSense AI is an AI-powered threat intelligence correlation and alert priori
 
 ---
 
-## ⚡ How to Run
+ How to Run
 
 See [`docs/setup-guide.md`](docs/setup-guide.md) for full instructions.
 
@@ -110,7 +110,7 @@ Open **http://localhost:5173** — the dashboard connects to the backend at **ht
 
 ---
 
-## 🖥️ Demo
+ Demo
 
 | Artifact | Link |
 |---|---|
@@ -121,7 +121,7 @@ Open **http://localhost:5173** — the dashboard connects to the backend at **ht
 
 ---
 
-## ⚠️ Known Limitations
+ Known Limitations
 
 - Alert data is simulated, not ingested from a live SIEM or EDR platform.
 - The watsonx.ai BLUF summary requires a valid IBM Cloud API key; a rule-based fallback activates automatically when no key is provided.
@@ -130,7 +130,7 @@ Open **http://localhost:5173** — the dashboard connects to the backend at **ht
 
 ---
 
-## 🏅 What We're Most Proud Of
+ What We're Most Proud Of
 
 The end-to-end AI pipeline: raw noisy alerts enter, and within seconds the analyst sees correlated attack clusters, MITRE ATT&CK technique tags, a risk score, a human-readable BLUF summary, and concrete recommended actions — all running locally with no external dependencies beyond watsonx.ai. **IBM Bob** was integral to the development workflow, used to generate boilerplate, make architecture decisions, write documentation, and rapidly iterate on the correlation and scoring logic.
 
