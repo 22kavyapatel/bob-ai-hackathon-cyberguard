@@ -1,0 +1,19 @@
+link of video
+
+# Conflicts:
+#	demo/live-demo-url.txt
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# interactive rebase in progress; onto 4e87388
+# Last command done (1 command done):
+#    pick b1a2f50 link of video
+# Next commands to do (2 remaining commands):
+#    pick acdc03f vide
+#    pick 03c5c0d slides add
+# You are currently rebasing branch 'main' on '4e87388'.
+#
+# Changes to be committed:
+#	new file:   demo/live-demo-url.txt
+git status#
